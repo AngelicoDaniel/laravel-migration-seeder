@@ -20,7 +20,7 @@ class TrainsTableSeeder extends Seeder
             'orario_partenza' => '10:15:00',
             'orario_arrivo' => '16:00:00',
             'prezzo' => 39.90,
-            'is_available' => 1,
+            'is_available' => 1
         ];
 
         foreach ($trains as $elem) {
