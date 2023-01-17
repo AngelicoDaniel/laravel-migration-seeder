@@ -14,8 +14,8 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
         @foreach ($trains as $elem)
+        <tr>
             <td>{{ $elem->codice_treno}}</td>
             <td>{{ $elem->n_carrozze}}</td>
             <td>{{ $elem->stazione_partenza}}</td>
@@ -24,8 +24,8 @@
             <td>{{ $elem->orario_arrivo}}</td>
             <td>{{ $elem->prezzo}}</td>
             <td>{{ $elem->is_available}}</td>
+        </tr>
         @endforeach
-    </tr>
 
     </tbody>
   </table>

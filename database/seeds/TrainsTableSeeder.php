@@ -35,7 +35,7 @@ class TrainsTableSeeder extends Seeder
                 'is_available' => 1
             ],
             [
-                'codice_treno' => 'zxcvb',
+                'codice_treno' => 'dkljfh',
                 'n_carrozze' => 9,
                 'stazione_partenza' => 'Foggia',
                 'stazione_arrivo' => 'Torino',
